@@ -1,0 +1,47 @@
+*{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+p{
+    line-height: 26px;
+}
+h2{
+    width: 95%;
+}
+span{
+    display: block;
+    font-size: 20px;
+    transition: .55s;
+    transform: rotate(90deg);
+}
+.rotate{
+    transform: rotate(-90deg); 
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.align_center{
+    align-items: center;
+}
+.head{
+    margin: 20px;
+    padding: 10px 20px;
+}
+.headding{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.body{
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .55s;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.body_change{
+    transform: scaleY(1);
+}
